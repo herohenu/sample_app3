@@ -153,5 +153,12 @@ describe User do
     end
   end
 
+  ##########chapter8   code8.17
+  describe "remember token" do
+    before { @user.save }
+    its(:remember_token) { should_not be_blank }
+  end
+
+
 end
 
