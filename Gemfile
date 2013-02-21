@@ -4,6 +4,8 @@ source 'http://mirrors.tuna.tsinghua.edu.cn/rubygems/'
 
 
 gem 'rails', '3.2.8'
+gem 'pg', '0.12.2'
+gem 'bootstrap-sass', '2.0.4'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
