@@ -6,7 +6,7 @@ When /^he submits invalid signin information$/ do
   click_button "Sign in"
 end
 
-Then /^he should see an error message$/ do
+Then /^he should see an error message$/ do               l
   page.should have_selector('div.alert.alert-error')
 end
 
